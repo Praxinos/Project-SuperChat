@@ -1,3 +1,11 @@
+# Add: Prevent saving the Map
+Content/Maps/DefaultMap.umap
+
+# Add: Prevent Mac files
+*.DS_Store
+
+#---
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -72,4 +80,4 @@ Intermediate/*
 Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
-DerivedDataCache/*
+DerivedDataCache/
